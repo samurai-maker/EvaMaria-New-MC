@@ -41,7 +41,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer(f"🎧 Hello {query.from_user.first_name}\n\nThis Is Not For You 🥲\n\n⚠️ Note: If You Want This You Can Request Your Own.", show_alert=True)
+        return await query.answer(f"🎧 Hello {query.from_user.first_name}\n\nThis Is Not For You 🥲\n\n⚠️ Note: If You Want This Song\nYou Can Request Your Own.🕊️", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -120,14 +120,14 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("o", show_alert=True)
+        return await query.answer("OkDa Monu😂", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
     if not movies:
         return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('Checking for Songs in database...')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -135,7 +135,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('This Song Not Found In DataBase')
             await asyncio.sleep(10)
             await k.delete()
 
