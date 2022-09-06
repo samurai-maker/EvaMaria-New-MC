@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """🏖️ <i>Hello {},</i>
 💜<i>My Name is <a href=https://t.me/{}>{}</a>,</i>
-🎧 <i>I Can Provide Song's In Group</i> 🎧"""
+🎧 <i>I Can Provide Song's In Group🕊️Or In My Inline Search Query</i> 🎧"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
