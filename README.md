@@ -30,6 +30,7 @@
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
 - [x] File Store
+- [x] 4GB Support
 ## Variables
 
 Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
