@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Edited Bot 👀</b>
+  <b>🏖️ Eva Maria Edited 👀</b>
 </h1>
 
 
@@ -17,20 +17,20 @@
 
 ## Features
 
-- [x] Auto Filter
-- [x] Manual Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
-- [x] File Store
-- [x] 4GB Support
+- [x] Auto Filter 🪀
+- [x] Manual Filter 🏖️
+- [x] IMDB 🎬
+- [x] Admin Commands 📊
+- [x] Broadcast 🧃
+- [x] Index 🔖
+- [x] IMDB search 🔎
+- [x] Inline Search 🔍
+- [x] Random pics 🖼️
+- [x] ids and User info 🆔
+- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel ♎
+- [x] Spelling Check Feature 💱
+- [x] File Store 💽
+- [x] 4GB Support 🔥
 ## Variables
 
 Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
