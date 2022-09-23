@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <br>
 <a href="https://telegram.dog/XTZ_HerokuBot?start=RXZhbWFyaWFURy9FdmFNYXJpYSBtYXN0ZXI">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/hydrix777/EvaMaria.git"><img align="center" alt="Heroku" width="220px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/hydrix777/EvaMaria-New-MC.git"><img align="center" alt="Heroku" width="220px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
 </a>
 </p>
 </details>
